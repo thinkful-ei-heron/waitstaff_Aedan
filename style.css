@@ -1,0 +1,39 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+main {
+    width: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
+    /* padding:50px; */
+    display:flex;
+    justify-content: space-around;
+}
+
+#js-meals {
+    /* position: absolute; */
+    height: 100%;
+    border: 3px solid pink;
+}
+
+section {
+    /* position: relative; */
+    border:2px solid green;
+}
+
+div {
+    border: 1px solid blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+span {
+    margin-left: 10px;
+}
